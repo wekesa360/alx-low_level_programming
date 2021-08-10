@@ -1,0 +1,33 @@
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdio.h>
+ssize_t read_textfile(const char *filename, size_t letters);
+int main (int argc, char *argv[])
+{
+  int fd;
+  char buf [23];
+  fd = open("filename",O_CREAT | O_WRONLY, 0600);
+  if (fd==-1)
+    {
+      printf("Failed to create and open the file.\n");
+      exit(1);
+    }
+  write(fd, "Hello Holberton School!", 22);
+  fd = open("filename",O_RDONLY);
+  if (fd==-1)
+    {
+      printf("Failed to open and read the file.\n");
+    }
+  read (fd,buf,22);
+  buf [23] = '\0';
+  close (fd);
+  printf("buf: %s \n",buf);
+  return 0;
+}
+  
+ssize_t read_textfile(const char *filename, size_t letters)
+{
+  
