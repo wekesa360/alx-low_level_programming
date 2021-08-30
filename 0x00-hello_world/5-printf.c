@@ -1,6 +1,13 @@
 #include <stdio.h>
-char main (void)
+/**
+ * main - should print out
+ * "with proper grammar, but the outcome is a piece of art,"
+ * using [puts] command
+ *
+ * Return: Always 0 (Success)
+ */
+char main(void)
 {
-  printf("with proper grammar, but the outcome is a piece of art,");
-  return 0;
+printf("with proper grammar, but the outcome is a piece of art,");
+return (0);
 }
