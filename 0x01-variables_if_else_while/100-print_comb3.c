@@ -1,6 +1,5 @@
-
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * main - prints combination of 2 digits
  *

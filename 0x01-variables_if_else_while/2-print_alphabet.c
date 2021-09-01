@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - prints lower case letters a to z
- * 
+ *  
  * return value: Always 0
  */ 
 int main (void)
