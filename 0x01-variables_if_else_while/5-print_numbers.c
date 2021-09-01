@@ -9,4 +9,5 @@ int main (void)
 for (int i; i <= 9; i++)
 printf("%d",i);
 printf("\n");
+return (0);
 }

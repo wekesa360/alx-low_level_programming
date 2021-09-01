@@ -9,4 +9,5 @@ int main (void)
 for (int i; i <= 9; i++)
 putchar(i);
 putchar('\n');
+return (0);
 }
