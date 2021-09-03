@@ -1,0 +1,2 @@
+The files contain C functions, performing various minor tasks like, addition, fibonaccie, printing last digit.
+Full description of the purpose of a function is in documentation comment block within the file.
