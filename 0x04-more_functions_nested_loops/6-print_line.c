@@ -3,7 +3,7 @@
  * print_line - prints a straight line
  * @n: parameter
  */
-void print_lin(int n)
+void print_line(int n)
 {
 int i;
 if (n > 0)

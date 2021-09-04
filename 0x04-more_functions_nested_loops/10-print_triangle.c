@@ -6,7 +6,8 @@
  * REturnvalue: Always 0
  */
 void print_triangle(int size)
-int y, x;
+{
+int x, y = 0;
 int space;
 if (size > 0)
 {
@@ -15,7 +16,7 @@ while (y < size)
 space = size - y - 1;
 while (x < size)
 {
-if ( space > x)
+if (space > x)
 {
 _putchar(' ');
 }
@@ -27,7 +28,8 @@ x++;
 }
 y++;
 x = 0;
-_putchar('#');
+_putchar ('\n');
+}
 }
 else
 _putchar('\n');

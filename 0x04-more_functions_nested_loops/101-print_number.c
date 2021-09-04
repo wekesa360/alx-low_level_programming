@@ -23,12 +23,12 @@ d = d / 10;
 
 while (ii < i)
 {
-_putchar('0' + n / d);
+_putchar('0' + 'n / d');
 n = n - (n / d) * d;
 d = d / 10;
 ii++;
 }
 
 if (i == 0)
-_putchar('0' + n);
+_putchar('0' + 'n');
 }
