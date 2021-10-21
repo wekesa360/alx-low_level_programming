@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "holberton.h": "c"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }

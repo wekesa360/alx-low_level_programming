@@ -1,4 +1,5 @@
-#include "holberton.h"
+#include <stdio.h>
+//#include "holberton.h"
 void reset_to_98(int *n);
 /**
  * main: prints an integer
